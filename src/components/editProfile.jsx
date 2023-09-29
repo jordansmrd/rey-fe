@@ -143,7 +143,7 @@ export default function EditProfile(props) {
                 />
               </Box>
 
-              <Box display={"flex"} justifyContent={"center"}>
+              <Box display={"flex"} flexDir={"column"} alignItems={"center"}>
                 <Box
                   w={"50%"}
                   color={"blue.300"}
