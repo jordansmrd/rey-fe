@@ -11,6 +11,7 @@ import {
   Flex,
   Image,
   Select,
+  Icon,
 } from "@chakra-ui/react";
 import { useState, useEffect } from "react";
 import { api } from "../api/api";
@@ -19,6 +20,7 @@ import { useFormik } from "formik";
 import * as Yup from "yup";
 import YupPassword from "yup-password";
 import { useFetchCity, useFetchProv } from "../hooks/useProvAndCity";
+import { FcInfo } from "react-icons/fc";
 
 export default function AddPropertyModal(props) {
   YupPassword(Yup);

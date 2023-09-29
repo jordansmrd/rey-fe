@@ -23,6 +23,7 @@ import { RxCross2 } from "react-icons/rx";
 import { MdOutlineDone } from "react-icons/md";
 import { Link, useNavigate } from "react-router-dom";
 import { fetch } from "../hoc/authProvider";
+import { FcInfo } from "react-icons/fc";
 
 export default function EditProfile(props) {
   const nav = useNavigate();
