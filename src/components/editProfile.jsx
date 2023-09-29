@@ -157,6 +157,15 @@ export default function EditProfile(props) {
                 >
                   Edit picture or avatar{" "}
                 </Box>
+                <Flex
+                  align={"center"}
+                  gap={"0.5em"}
+                  fontSize={"0.8em"}
+                  fontWeight={"bold"}
+                >
+                  <Icon as={FcInfo} boxSize={6} />
+                  Maximum upload file size: 1 MB
+                </Flex>
               </Box>
             </Box>
 
